@@ -1,7 +1,6 @@
 <div class="user-details">
   <h1> Research Experiences </h1>
 </div>
-
 <div class="row">
   <div class="col">
     <table>
@@ -9,10 +8,10 @@
       {% for lab in site.data.experiences %}
         <tr>
           <td>
-            <a href="{{lab.link}}" target="_blank"><strong>{{lab.name}}</strong></a>, {{lab.school}}{% if lab.advisor %}{% assign advisor_stripped = lab.advisor | strip %}{% unless advisor_stripped == '' or advisor_stripped == nil %} (Advisor: {{lab.advisor}}){% endunless %}{% endif %}
+            <a href="{{lab.link}}" target="_blank"><strong>{{lab.name}}</strong></a>, {{lab.school}}
           </td>
-        <tr>
         </tr>
+        <tr>
           <td>
             <i>{{lab.position}}, ({{lab.date}})</i>
           </td>
@@ -22,7 +21,9 @@
             {{lab.interest}}
           </td>
         </tr>
-        <td><br></td>
+        <tr>
+          <td><br></td>
+        </tr>
       {% endfor %}
       </tbody>
     </table>
