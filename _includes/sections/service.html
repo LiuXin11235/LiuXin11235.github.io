@@ -1,6 +1,7 @@
 <div class="user-details">
   <h1> Service </h1>
 </div>
+
 <div class="row">
   <div class="col">
     <table>
@@ -8,14 +9,14 @@
       {% for item in site.data.service %}
         <tr>
           <td>
-            <strong>{{item.title}}</strong>
+            <strong>{{item.date}}</strong>
+          </td>
+          <td>
+            {{item.title}}
             {% if item.session %}
               - {{item.session}} Session
             {% endif %}
             , {{item.venue}}
-            {% if item.date %}
-              ({{item.date}})
-            {% endif %}
           </td>
         </tr>
       {% endfor %}
