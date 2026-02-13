@@ -1,7 +1,55 @@
-- title: "RICC: Robust Collective Classification of Sybil Accounts"
-  authors: <strong>Dongwon Shin*</strong>, Suyoung Lee*, and Sooel Son.
-  venue: <strong>WWW 2023</strong>
-  link: /papers/shin-www23.pdf
-  bib: /bibtex/shin-www23.bib
-  code: https://github.com/WSP-LAB/RICC
-  slides: /slides/shin-www23.pdf
+- title: "Detecting LLM-Generated Spam Reviews by Integrating Language Model Embeddings and Graph Neural Network"
+  authors: <strong>Xin Liu</strong>, Rongwu Xu, Xinyi Jia, Jason Liao, Jiao Sun, Ling Huang, and Wei Xu.
+  venue: <strong>arXiv preprint arXiv:2510.01801, 2025</strong>
+  link: /papers/detecting.pdf
+  bib: /bibtex/liu2025detecting.bib.html
+  code: 
+  slides: 
+
+- title: "Simplifying Root Cause Analysis in Kubernetes with StateGraph and LLM"
+  authors: Yong Xiang, Charley Peter Chen, Liyi Zeng, Wei Yin, <strong>Xin Liu</strong>, Hu Li, and Wei Xu.
+  venue: <strong>arXiv preprint arXiv:2506.02490, 2025</strong>
+  link: 
+  bib: /bibtex/xiang2025simplifying.bib.html
+  code: 
+  slides: 
+
+- title: "Collaborative Fraud Detection on Large Scale Graph Using Secure Multi-Party Computation"
+  authors: <strong>Xin Liu</strong>, Xiaoyu Fan, Rong Ma, Kun Chen, Yi Li, Guosai Wang, and Wei Xu.
+  venue: <strong>CIKM 2024</strong>
+  link: /papers/collaborative.pdf
+  bib: /bibtex/liu2024collaborative.bib.html
+  code: 
+  slides: 
+
+- title: "FDHelper: Assist Unsupervised Fraud Detection Experts with Interactive Feature Selection and Evaluation"
+  authors: Jiao Sun, Yin Li, Charley Chen, Jihae Lee, <strong>Xin Liu</strong>, Zhongping Zhang, Ling Huang, Lei Shi, and Wei Xu.
+  venue: <strong>CHI 2020</strong>
+  link: 
+  bib: /bibtex/sun2020fdhelper.bib.html
+  code: 
+  slides: 
+
+- title: "No place to hide: Catching fraudulent entities in tensors"
+  authors: Yikun Ban, <strong>Xin Liu</strong>, Ling Huang, Yitao Duan, Xue Liu, and Wei Xu.
+  venue: <strong>WWW 2019</strong>
+  link: /papers/www19.pdf
+  bib: /bibtex/yikun2019no.bib.html
+  code: 
+  slides: /papers/www19-poster.pdf
+
+- title: "FraudVis: Understanding Unsupervised Fraud Detection Algorithms"
+  authors: Jiao Sun, Qixin Zhu, Zhifei Liu, <strong>Xin Liu</strong>, Jihae Lee, Zhigang Su, Lei Shi, Ling Huang, and Wei Xu.
+  venue: <strong>PacificVis 2018</strong>
+  link: 
+  bib: /bibtex/sun2018fraudvis.bib.html
+  code: 
+  slides: 
+
+- title: "Catching Loosely Synchronized Behavior in Face of Camouflage"
+  authors: Yikun Ban, Jiao Sun, and <strong>Xin Liu</strong>.
+  venue: <strong>arXiv preprint arXiv:1810.08885, 2018</strong>
+  link: 
+  bib: /bibtex/ban2018catching.bib.html
+  code: 
+  slides: 

@@ -1,10 +1,10 @@
 # Site settings
-title: Dongwon Shin
-description: Dongwon Shin / 신동원. Master's student @KAIST WSP Lab.
-url: https://godeastone.github.io
+title: Xin Liu
+description: Xin Liu. Researcher @Supcon. PhD @Tsinghua University.
+url: https://liuxin.github.io
 # baseurl: "/particle" # the subpath of your site, e.g. /blog
 
-timezone:          Asia/Seoul
+timezone:          Asia/Shanghai
 markdown:          kramdown
 highlighter:       rouge
 excerpt_separator: <!--more-->
@@ -21,16 +21,20 @@ sass:
   sass_dir: _sass
 
 # User settings
-username: Dongwon Shin
-user_title: Security Researcher
+username: Xin Liu
+user_title: Researcher
 user_description: >
-  I am a master's student <a href="https://wsp-lab.github.io/" target="_blank">
-  @KAIST WSP Lab</a>. My primary research interests lie in various attacks and
-  defenses against web sites providing privacy-sensitive services. In
-  particular, I am interested in securing web services by leveraging machine
-  learning.
-email: dongwon.shin@kaist.ac.kr
-# twitter: leeswimming
-github: godeastone
-# facebook: leeswimming
-# gplus_username:  lorem_ipsum
+  I am a researcher at <a href="https://www.supcon.com/" target="_blank">Supcon</a> 
+  (HGT Innovation Department). I received my Ph.D. from 
+  <a href="https://www.tsinghua.edu.cn/" target="_blank">Tsinghua University</a> 
+  in 2025, advised by <a href="https://iiis.tsinghua.edu.cn/rydw/qzjs/xuwei.htm" target="_blank">Prof. Wei Xu</a>. 
+  My research interests include graph foundation models, hypergraph, large language models, ontology,  
+  multi-party computation, graph algorithms, graph neural networks, and fraud detection.
+email: liuxin@mails.tsinghua.edu.cn
+avatar: /photo.jpg
+# twitter: 
+github: liuxin
+scholar: https://scholar.google.com/citations?hl=en&user=AWSswSgAAAAJ
+openreview: https://openreview.net/profile?id=%7EXin_Liu31
+# facebook: 
+# gplus_username:  
