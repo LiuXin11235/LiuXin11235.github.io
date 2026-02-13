@@ -8,7 +8,7 @@
       {% for lab in site.data.experiences %}
         <tr>
           <td>
-            <a href="{{lab.link}}" target="_blank"><strong>{{lab.name}}</strong></a>, {{lab.school}}
+            <a href="{{lab.link}}" target="_blank"><strong>{{lab.name}}</strong></a>{% unless lab.school == lab.name %}, {{lab.school}}{% endunless %}
           </td>
         </tr>
         <tr>
