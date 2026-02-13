@@ -24,11 +24,9 @@
 */
   .avatar {
     border-radius: 50%;
-    max-width: 150px;
-    max-height: 150px;
-    width: auto;
-    height: auto;
-    float: none;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
     display: block;
     margin: 0 auto 20px auto;
   }

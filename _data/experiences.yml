@@ -2,9 +2,8 @@
   link: https://www.supcon.com/
   date: 2025 - 2026
   position: Researcher
-  advisor: 
   school: Supcon
-  interest: <i class="fa fa-sharp fa-regular fa-book"></i> Graph Foundation Models, Large Language Models, Graph Neural Networks
+  interest: <i class="fa fa-sharp fa-regular fa-book"></i> Graph Foundation Models, Large Language Models, Ontology, Hypergraph
 
 - name: Institute for Interdisciplinary Information Sciences
   link: https://iiis.tsinghua.edu.cn/
@@ -12,5 +11,5 @@
   position: PhD student (graduated)
   advisor: <a href="https://iiis.tsinghua.edu.cn/rydw/qzjs/xuwei.htm" target="_blank">Prof. Wei Xu</a>
   school: Tsinghua University
-  interest: <i class="fa fa-sharp fa-regular fa-book"></i> Graph Foundation Models, Ontology, Hypergraph, Multi-Party Computation, Graph Algorithms, Fraud Detection
+  interest: <i class="fa fa-sharp fa-regular fa-book"></i>  Multi-Party Computation, Graph Algorithms, Graph Neural Networks, Fraud Detection
 

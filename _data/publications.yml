@@ -36,7 +36,7 @@
   link: /papers/www19.pdf
   bib: /bibtex/yikun2019no.bib.html
   code: 
-  slides: /papers/www19-poster.pdf
+  poster: /papers/www19-poster.pdf
 
 - title: "FraudVis: Understanding Unsupervised Fraud Detection Algorithms"
   authors: Jiao Sun, Qixin Zhu, Zhifei Liu, <strong>Xin Liu</strong>, Jihae Lee, Zhigang Su, Lei Shi, Ling Huang, and Wei Xu.
