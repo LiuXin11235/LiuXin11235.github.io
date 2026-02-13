@@ -19,14 +19,15 @@
 }
 .cover-card {
   color: #202020;
+  text-align: center;
 /*
   padding: 0 30px;
 */
   .avatar {
     border-radius: 4px;
-    width: 130px;
-    height: 130px;
-    object-fit: cover;
+    max-width: 150px;
+    width: auto;
+    height: auto;
     display: block;
     margin: 0 auto 20px auto;
   }
@@ -54,12 +55,14 @@
   }
   h1 {
     margin-bottom: 0px !important;
+    text-align: center;
   }
   .site-title {
     font-family: $font-family-base;
     font-size: 1.40rem;
     font-weight: 300;
     color: rgba(255,255,255,.5);
+    text-align: center;
     @include media-query($medium-screen) {
       font-size: 1.50rem;
     }
@@ -70,6 +73,15 @@
         color: rgba(255,255,255,.7);
       }
     }
+  }
+  .body {
+    text-align: center;
+  }
+  .header-icons {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    gap: 15px;
   }
 }
 .social-links {
