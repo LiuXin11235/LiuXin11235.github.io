@@ -9,7 +9,7 @@
       {% for lab in site.data.experiences %}
         <tr>
           <td>
-            <a href="{{lab.link}}" target="_blank"><strong>{{lab.name}}</strong></a>, {{lab.school}}{% if lab.advisor %} (Advisor: {{lab.advisor}}){% endif %}
+            <a href="{{lab.link}}" target="_blank"><strong>{{lab.name}}</strong></a>, {{lab.school}}{% if lab.advisor %}{% assign advisor_stripped = lab.advisor | strip %}{% unless advisor_stripped == '' or advisor_stripped == nil %} (Advisor: {{lab.advisor}}){% endunless %}{% endif %}
           </td>
         <tr>
         </tr>
