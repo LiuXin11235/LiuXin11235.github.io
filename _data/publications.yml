@@ -1,5 +1,5 @@
 - title: "Detecting LLM-Generated Spam Reviews by Integrating Language Model Embeddings and Graph Neural Network"
-  authors: <strong>Xin Liu</strong>, Rongwu Xu, Xinyi Jia, Jason Liao, Jiao Sun, Ling Huang, and Wei Xu.
+  authors: <strong>Xin Liu*</strong>, Rongwu Xu*, Xinyi Jia, Jason Liao, Jiao Sun, Ling Huang, and Wei Xu.
   venue: <strong>arXiv preprint arXiv:2510.01801, 2025</strong>
   link: /papers/detecting.pdf
   bib: /bibtex/liu2025detecting.bib.html

@@ -24,9 +24,13 @@
 */
   .avatar {
     border-radius: 50%;
+    max-width: 150px;
+    max-height: 150px;
     width: auto;
     height: auto;
     float: none;
+    display: block;
+    margin: 0 auto 20px auto;
   }
   .author_name {
     display: block;
@@ -52,6 +56,22 @@
   }
   h1 {
     margin-bottom: 0px !important;
+  }
+  .site-title {
+    font-family: $font-family-base;
+    font-size: 1.40rem;
+    font-weight: 300;
+    color: rgba(255,255,255,.5);
+    @include media-query($medium-screen) {
+      font-size: 1.50rem;
+    }
+    a {
+      color: rgba(255,255,255,.5);
+      &:hover,
+      &:focus {
+        color: rgba(255,255,255,.7);
+      }
+    }
   }
 }
 .social-links {

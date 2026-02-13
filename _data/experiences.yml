@@ -1,4 +1,4 @@
-- name: HGT Innovation Department
+- name: Supcon
   link: https://www.supcon.com/
   date: 2025 - 2026
   position: Researcher
@@ -10,7 +10,7 @@
   link: https://iiis.tsinghua.edu.cn/
   date: Sep. 2016 - Dec. 2025
   position: PhD student (graduated)
-  advisor: <a href="https://iiis.tsinghua.edu.cn/rydw/qzjs/xuwei.htm" target="_blank">Wei Xu</a>
+  advisor: <a href="https://iiis.tsinghua.edu.cn/rydw/qzjs/xuwei.htm" target="_blank">Prof. Wei Xu</a>
   school: Tsinghua University
   interest: <i class="fa fa-sharp fa-regular fa-book"></i> Graph Foundation Models, Ontology, Hypergraph, Multi-Party Computation, Graph Algorithms, Fraud Detection
 
