@@ -34,6 +34,13 @@ section.post {
 	margin-bottom: 80px;
 }
 
+// Fine-tune Service section horizontal alignment
+#service {
+  @include media-query($medium-screen) {
+    margin-left: 12px;
+  }
+}
+
 // Back home button
 
 .back-home a {
