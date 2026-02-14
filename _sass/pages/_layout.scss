@@ -20,6 +20,7 @@
 .cover-card {
   color: #202020;
   text-align: center;
+  position: relative;
 /*
   padding: 0 30px;
 */
@@ -84,13 +85,27 @@
     gap: 15px;
   }
 }
-.powered {
+
+.sidebar-meta {
+  margin-top: 1.2rem;
+  @include media-query($medium-screen) {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+  }
+}
+
+.sidebar-meta-line {
+  margin: 0.35rem 0;
+  line-height: 1.25;
   font-size: 0.85rem;
   font-weight: 300;
-  margin-top: 2em;
-  @include media-query($medium-screen) {
-    font-size: 0.95rem;
-  }
+  color: rgba(255,255,255,.5);
+}
+
+.powered-line {
+  font-size: 0.72rem;
 }
 .social-links {
   margin-top: 0.5em;
