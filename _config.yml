@@ -24,9 +24,11 @@ sass:
 username: Xin Liu
 user_title: Researcher
 user_description: >
-  HI! I am a researcher at <a href="https://www.supcon.com/" target="_blank">Supcon</a> working on enterprise intelligence using (hyper-)graph ontology and large language models (LLMs), with a focus on retrieval-augmented generation (RAG) methods and graph foundation models. Our team aims to build enterprise-grade intelligent systems that encapsulate enterprise knowledge, business entities, and operational logic, enabling structured reasoning and task planning while preserving explainability and execution determinism.
+  HI! I am a researcher at <a href="https://www.supcon.com/" target="_blank">Supcon</a> working on enterprise intelligence where our team is aiming to build enterprise-grade intelligent systems that encapsulate enterprise knowledge, business entities, and operational logic, enabling structured reasoning and task planning while preserving explainability and execution determinism.
   
-  I received my Ph.D. from <a href="https://www.tsinghua.edu.cn/" target="_blank">Tsinghua University</a> in 2025, advised by <a href="https://iiis.tsinghua.edu.cn/rydw/qzjs/xuwei.htm" target="_blank">Prof. Wei Xu</a>. My research interests include graph foundation models, hypergraph, large language models, ontology, multi-party computation, graph algorithms, graph neural networks, and fraud detection.
+  My research work mainly focuses on using (hyper-)graph, ontology and large language models (LLMs) in achieving the team's goals, with a focus on retrieval-augmented generation (RAG) methods and graph foundation models.
+  
+  I received my Ph.D. from <a href="https://www.tsinghua.edu.cn/" target="_blank">Tsinghua University</a> in 2025, advised by <a href="https://iiis.tsinghua.edu.cn/rydw/qzjs/xuwei.htm" target="_blank">Prof. Wei Xu</a>, where I worked on fraud detection, multi-party computation, graph algorithms, and graph neural networks. The pursuit of my Ph.D. degree was greatly supported by my advisor Prof. Wei Xu and many others including my friends and family ❤️.
   
   Please feel free to contact me! <a href="mailto:liuxin4@supcon.com">liuxin4@supcon.com</a>; <a href="mailto:greenliuxin@163.com">greenliuxin@163.com</a>
 email: liuxin4@supcon.com
