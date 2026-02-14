@@ -239,47 +239,60 @@ footer {
 }
 
 // Product link styles with blue color palette
+.product-links-line {
+  margin: 0.5em 0;
+  line-height: 2;
+}
+
 .product-link {
   display: inline-block;
-  padding: 0.2em 0.5em;
-  border-radius: 4px;
+  padding: 0.3em 0.7em;
+  margin: 0.1em 0.2em;
+  border-radius: 5px;
   font-weight: 600;
-  text-decoration: none;
+  font-size: 0.95em;
+  text-decoration: none !important;
   transition: all 0.2s ease;
-  color: white;
+  color: white !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   
   &:hover {
-    opacity: 0.9;
-    transform: translateY(-1px);
+    opacity: 0.85;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+  }
+  
+  &:visited {
+    color: white !important;
   }
 }
 
 .product-qa {
-  background-color: #90CAF9; // Light blue
+  background-color: #90CAF9 !important; // Light blue
 }
 
 .product-efficiency {
-  background-color: #64B5F6; // Medium light blue
+  background-color: #64B5F6 !important; // Medium light blue
 }
 
 .product-meeting {
-  background-color: #42A5F5; // Medium blue
+  background-color: #42A5F5 !important; // Medium blue
 }
 
 .product-bidding {
-  background-color: #2196F3; // Standard blue
+  background-color: #2196F3 !important; // Standard blue
 }
 
 .product-sales {
-  background-color: #1E88E5; // Darker blue
+  background-color: #1E88E5 !important; // Darker blue
 }
 
 .product-procurement {
-  background-color: #1976D2; // Dark blue
+  background-color: #1976D2 !important; // Dark blue
 }
 
 .product-hr {
-  background-color: #1565C0; // Darkest blue
+  background-color: #1565C0 !important; // Darkest blue
 }
 .note {
   @include media-query($large-screen) {
