@@ -47,7 +47,7 @@
   slides: 
 
 - title: "Catching Loosely Synchronized Behavior in Face of Camouflage"
-  authors: Yikun Ban, Jiao Sun, and <strong>Xin Liu</strong>.
+  authors: Yikun Ban, Jiao Sun, <strong>Xin Liu</strong>, Ling Huang,  Yitao Duan, and Wei Xu.
   venue: <strong>arXiv preprint, 2018</strong>
   link: https://arxiv.org/pdf/1810.08885.pdf
   bib: /bibtex/ban2018catching.bib.html
