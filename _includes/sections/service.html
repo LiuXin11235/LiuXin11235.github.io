@@ -12,11 +12,7 @@
             <strong>{{item.date}}</strong>
           </td>
           <td>
-            {{item.title}}
-            {% if item.session %}
-              - {{item.session}} Session
-            {% endif %}
-            , {{item.venue}}
+            {{item.title}}{% if item.session %} - {{item.session}} Session{% endif %}, {{item.venue}}
           </td>
         </tr>
       {% endfor %}
