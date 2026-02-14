@@ -241,16 +241,16 @@ footer {
 // Product link styles with blue color palette
 .product-links-line {
   margin: 0.5em 0;
-  line-height: 2;
+  line-height: 1.8;
 }
 
 .product-link {
   display: inline-block;
-  padding: 0.3em 0.7em;
-  margin: 0.1em 0.2em;
-  border-radius: 5px;
+  padding: 0.2em 0.5em;
+  margin: 0.05em 0.15em;
+  border-radius: 4px;
   font-weight: 600;
-  font-size: 0.95em;
+  font-size: 0.9em;
   text-decoration: none !important;
   transition: all 0.2s ease;
   color: white !important;
