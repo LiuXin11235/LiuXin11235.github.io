@@ -34,6 +34,16 @@ section.post {
 	margin-bottom: 80px;
 }
 
+// Keep all homepage sections left-aligned with a unified offset
+#about,
+#education,
+#publications,
+#experiences,
+#service {
+  clear: both;
+  margin-left: 12px;
+}
+
 // Back home button
 
 .back-home a {
