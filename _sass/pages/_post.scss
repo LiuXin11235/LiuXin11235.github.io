@@ -34,6 +34,13 @@ section.post {
 	margin-bottom: 80px;
 }
 
+// Align service section with the current experiences visual offset on desktop
+#service {
+  @include media-query($medium-screen) {
+    margin-left: 180px;
+  }
+}
+
 // Back home button
 
 .back-home a {
