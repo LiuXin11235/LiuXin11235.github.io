@@ -3,6 +3,7 @@
   date: 2025 - 2026
   position: Researcher
   school: Supcon
+  department: HGT Innovation Department
   interest: <i class="fa fa-sharp fa-regular fa-book"></i> Enterprise Intelligence, Hypergraph, Graph Foundation Models, Large Language Models, Ontology
 
 - name: Institute for Interdisciplinary Information Sciences
@@ -10,5 +11,5 @@
   date: Sep. 2016 - Dec. 2025
   position: PhD student (graduated)
   school: Tsinghua University
-  interest: <i class="fa fa-sharp fa-regular fa-book"></i>  Multi-Party Computation, Graph Algorithms, Graph Neural Networks, Fraud Detection
+  interest: <i class="fa fa-sharp fa-regular fa-book"></i>  Graph Algorithms, Multi-Party Computation, Graph Neural Networks, Fraud Detection
 

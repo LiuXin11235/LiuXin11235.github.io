@@ -233,6 +233,10 @@ footer {
 .badge-qa {
   background-color: #1ABC9C;
 }
+
+.badge-efficiency {
+  background-color: #E67E22;
+}
 .note {
   @include media-query($large-screen) {
     font-size: $font-size-lg;
