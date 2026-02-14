@@ -34,11 +34,11 @@ section.post {
 	margin-bottom: 80px;
 }
 
-// Fine-tune Service section horizontal alignment
+// Keep section starts consistent even if previous floated elements exist
+#experiences,
 #service {
-  @include media-query($medium-screen) {
-    margin-left: 12px;
-  }
+  clear: both;
+  margin-left: 0;
 }
 
 // Back home button
