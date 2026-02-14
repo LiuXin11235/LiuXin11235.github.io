@@ -211,31 +211,75 @@ footer {
 }
 
 .badge-sales {
-  background-color: #E74C3C;
+  background-color: #1976D2;
 }
 
 .badge-procurement {
-  background-color: #3498DB;
+  background-color: #1E88E5;
 }
 
 .badge-meeting {
-  background-color: #2ECC71;
+  background-color: #2196F3;
 }
 
 .badge-hr {
-  background-color: #9B59B6;
+  background-color: #42A5F5;
 }
 
 .badge-bidding {
-  background-color: #F39C12;
+  background-color: #64B5F6;
 }
 
 .badge-qa {
-  background-color: #1ABC9C;
+  background-color: #90CAF9;
 }
 
 .badge-efficiency {
-  background-color: #E67E22;
+  background-color: #1565C0;
+}
+
+// Product link styles with blue color palette
+.product-link {
+  display: inline-block;
+  padding: 0.2em 0.5em;
+  border-radius: 4px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  color: white;
+  
+  &:hover {
+    opacity: 0.9;
+    transform: translateY(-1px);
+  }
+}
+
+.product-qa {
+  background-color: #90CAF9; // Light blue
+}
+
+.product-efficiency {
+  background-color: #64B5F6; // Medium light blue
+}
+
+.product-meeting {
+  background-color: #42A5F5; // Medium blue
+}
+
+.product-bidding {
+  background-color: #2196F3; // Standard blue
+}
+
+.product-sales {
+  background-color: #1E88E5; // Darker blue
+}
+
+.product-procurement {
+  background-color: #1976D2; // Dark blue
+}
+
+.product-hr {
+  background-color: #1565C0; // Darkest blue
 }
 .note {
   @include media-query($large-screen) {
