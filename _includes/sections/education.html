@@ -13,6 +13,10 @@
           </td>
           <td>
             {{career.descr}}, {{career.school}}
+            {% if career.honor %}
+              <br>
+              {{career.honor}}
+            {% endif %}
           </td>
         </tr>
       {% endfor %}
