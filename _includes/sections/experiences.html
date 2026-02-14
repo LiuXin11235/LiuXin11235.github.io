@@ -22,6 +22,11 @@
             {{lab.interest}}
           </td>
         </tr>
+        {% if forloop.last == false %}
+        <tr class="experience-gap">
+          <td></td>
+        </tr>
+        {% endif %}
       {% endfor %}
       </tbody>
     </table>
