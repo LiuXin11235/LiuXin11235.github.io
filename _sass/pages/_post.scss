@@ -34,13 +34,6 @@ section.post {
 	margin-bottom: 80px;
 }
 
-// Keep section starts consistent even if previous floated elements exist
-#experiences,
-#service {
-  clear: both;
-  margin-left: 0;
-}
-
 // Back home button
 
 .back-home a {
