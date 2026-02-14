@@ -9,7 +9,7 @@
       {% for lab in site.data.experiences %}
         <tr>
           <td>
-            <a href="{{lab.link}}" target="_blank"><strong>{{lab.name}}</strong></a>{% if lab.department %}, {{lab.department}}{% endif %}{% unless lab.school == lab.name %}, {{lab.school}}{% endunless %}
+            {% if lab.department %}<strong>{{lab.department}}</strong>, {% endif %}<a href="{{lab.link}}" target="_blank"><strong>{{lab.name}}</strong></a>{% unless lab.school == lab.name %}, {{lab.school}}{% endunless %}
           </td>
         </tr>
         <tr>
