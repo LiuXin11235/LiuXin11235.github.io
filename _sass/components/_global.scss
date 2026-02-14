@@ -182,6 +182,57 @@ footer {
 .sec-pub {
   margin-bottom: 0;
 }
+
+.products-section {
+  margin-top: 1.5em;
+}
+
+.product-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  margin: 0.5em 0;
+}
+
+.product-badge {
+  display: inline-block;
+  padding: 0.4em 0.8em;
+  border-radius: 4px;
+  font-size: 0.9em;
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  
+  &:hover {
+    opacity: 0.9;
+    transform: translateY(-2px);
+  }
+}
+
+.badge-sales {
+  background-color: #E74C3C;
+}
+
+.badge-procurement {
+  background-color: #3498DB;
+}
+
+.badge-meeting {
+  background-color: #2ECC71;
+}
+
+.badge-hr {
+  background-color: #9B59B6;
+}
+
+.badge-bidding {
+  background-color: #F39C12;
+}
+
+.badge-qa {
+  background-color: #1ABC9C;
+}
 .note {
   @include media-query($large-screen) {
     font-size: $font-size-lg;

@@ -1,15 +1,15 @@
 - title: "Detecting LLM-Generated Spam Reviews by Integrating Language Model Embeddings and Graph Neural Network"
   authors: <strong>Xin Liu*</strong>, Rongwu Xu*, Xinyi Jia, Jason Liao, Jiao Sun, Ling Huang, and Wei Xu.
-  venue: <strong>arXiv preprint arXiv:2510.01801, 2025</strong>
-  link: /papers/detecting.pdf
+  venue: <strong>arXiv preprint, 2025</strong>
+  link: https://arxiv.org/pdf/2510.01801.pdf
   bib: /bibtex/liu2025detecting.bib.html
   code: 
   slides: 
 
 - title: "Simplifying Root Cause Analysis in Kubernetes with StateGraph and LLM"
   authors: Yong Xiang, Charley Peter Chen, Liyi Zeng, Wei Yin, <strong>Xin Liu</strong>, Hu Li, and Wei Xu.
-  venue: <strong>arXiv preprint arXiv:2506.02490, 2025</strong>
-  link: 
+  venue: <strong>arXiv preprint, 2025</strong>
+  link: https://arxiv.org/pdf/2506.02490.pdf
   bib: /bibtex/xiang2025simplifying.bib.html
   code: 
   slides: 
@@ -46,10 +46,18 @@
   code: 
   slides: 
 
+- title: "让AI读懂业务：本体论正在成为企业的\"新智商""
+  authors: <strong>Xin Liu</strong>.
+  venue: <strong>WeChat (in Chinese), 2024</strong>
+  link: https://mp.weixin.qq.com/s/Ib1kHef2BZnE7hErl0QyCg
+  bib: 
+  code: 
+  slides: 
+
 - title: "Catching Loosely Synchronized Behavior in Face of Camouflage"
   authors: Yikun Ban, Jiao Sun, and <strong>Xin Liu</strong>.
-  venue: <strong>arXiv preprint arXiv:1810.08885, 2018</strong>
-  link: 
+  venue: <strong>arXiv preprint, 2018</strong>
+  link: https://arxiv.org/pdf/1810.08885.pdf
   bib: /bibtex/ban2018catching.bib.html
   code: 
   slides: 
