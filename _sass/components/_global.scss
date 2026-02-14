@@ -268,15 +268,15 @@ footer {
 }
 
 .product-qa {
-  background-color: #1565C0 !important; // Darkest blue
+  background-color: #90CAF9 !important; // Light blue
 }
 
 .product-meeting {
-  background-color: #1976D2 !important; // Dark blue
+  background-color: #64B5F6 !important; // Medium light blue
 }
 
 .product-bidding {
-  background-color: #1E88E5 !important; // Darker blue
+  background-color: #42A5F5 !important; // Medium blue
 }
 
 .product-sales {
@@ -284,15 +284,15 @@ footer {
 }
 
 .product-procurement {
-  background-color: #42A5F5 !important; // Medium blue
+  background-color: #1E88E5 !important; // Darker blue
 }
 
 .product-hr {
-  background-color: #64B5F6 !important; // Medium light blue
+  background-color: #1976D2 !important; // Dark blue
 }
 
 .product-efficiency {
-  background-color: #90CAF9 !important; // Light blue
+  background-color: #1565C0 !important; // Darkest blue
 }
 .note {
   @include media-query($large-screen) {
