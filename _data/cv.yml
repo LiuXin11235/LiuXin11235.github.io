@@ -30,7 +30,7 @@ cv:
         score: ""
         highlights:
           - Advised by Prof. Wei Xu
-          - Worked on fraud detection, multi-party computation, graph algorithms, and graph neural networks
+          - Worked on fraud detection, graph algorithms, graph neural networks, large language models, and multi-party computation
 
       - institution: Tsinghua University
         location: Beijing, China
@@ -41,6 +41,8 @@ cv:
         end_date: 2019-06
         highlights:
           - Institute for Interdisciplinary Information Sciences
+          - Advised by Prof. Wei Xu
+          - Worked on fraud detection, graph algorithms, and visualization
 
       - institution: Zhejiang University
         location: Hangzhou, China
