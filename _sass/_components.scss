@@ -80,7 +80,8 @@ ul.task-list input[type="checkbox"] {
 
 @media (min-width: 576px) {
   .profile {
-    width: 30%;
+    width: 25%;
+    max-width: 200px;
 
     .address {
       p {

@@ -2,7 +2,7 @@ cv:
   name: Xin Liu
   label: Researcher
   email: liuxin4@supcon.com
-  location: 
+  location: Hangzhou, China
   image: ""
   summary: Researcher at Supcon working on Industrial AI, Graph Neural Networks, and Large Language Models
 
@@ -12,10 +12,11 @@ cv:
 
   address:
     street: 
-    city: 
+    city: Hangzhou, China
     region: 
     postalCode: 
     countryCode: CN
+    email2: greenliuxin@163.com
 
   sections:
     Education:
@@ -52,32 +53,19 @@ cv:
           - Honor Degree, Advanced Honor Class of Engineering Education, Chu Kochen College
 
     Experience:
-      - company: Supcon
+      - company: Supcon, HGT Innovation Department
         position: Researcher
-        location: HGT Innovation Department
+        location: Hangzhou, China
         url: https://www.supcon.com/
         start_date: 2025
         end_date: 2026
-        summary: Working on Enterprise Intelligence, Hypergraph, Graph Foundation Models, Large Language Models, and Ontology. Building a suite of industrial intelligent agents based on HGT.
+        summary: Building industrial intelligent agents based on HGT fostering steady and sustainable business growth
         highlights:
           - Enterprise Intelligence
           - Hypergraph
           - Graph Foundation Models
           - Large Language Models
           - Ontology
-
-      - company: Tsinghua University
-        position: PhD Student
-        location: Institute for Interdisciplinary Information Sciences
-        url: https://iiis.tsinghua.edu.cn/
-        start_date: 2016-09
-        end_date: 2025-12
-        summary: Worked on Graph Algorithms, Multi-Party Computation, Graph Neural Networks, and Fraud Detection under the supervision of Prof. Wei Xu.
-        highlights:
-          - Graph Algorithms
-          - Multi-Party Computation
-          - Graph Neural Networks
-          - Fraud Detection
 
     Services:
       - title: Session Chair - Privacy & Security Session
