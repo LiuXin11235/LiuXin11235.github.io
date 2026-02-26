@@ -69,5 +69,6 @@ cv:
           - Ontology
 
     Services:
-      - label: "2024"
-        details: "Session Chair - Privacy & Security Session, CIKM 2024"
+      - title: Session Chair - Privacy & Security Session
+        date: 2024
+        awarder: CIKM 2024
