@@ -28,13 +28,13 @@ latest_posts:
 
 HI! I am a researcher at <a href="https://www.supcon.com/" target="_blank">Supcon</a> working on Industrial AI. Our team is building a suite of industrial intelligent agents based on HGT fostering steady and sustainable business growth, including:
 
-<a href="https://mp.weixin.qq.com/s/fgFIfPRGlMXXy8XzCBC8XA" target="_blank" style="color: #5dade2; text-decoration: none; font-weight: bold;">HR Agent</a>
-<a href="https://mp.weixin.qq.com/s/6pcpuERytSw9QfyHAfg05w" target="_blank" style="color: #3498db; text-decoration: none; font-weight: bold;">Data Agent</a>
-<a href="https://mp.weixin.qq.com/s/5oidw2XT_ggqMYylsnM4hA" target="_blank" style="color: #2980b9; text-decoration: none; font-weight: bold;">Sales Agent</a>
-<a href="https://mp.weixin.qq.com/s/UiZ2xNETnbmTXz9YTXPLdQ" target="_blank" style="color: #1f618d; text-decoration: none; font-weight: bold;">Biding Agent</a>
-<a href="https://mp.weixin.qq.com/s/2-v1LCX-zkpS-XoV1TnJ1A" target="_blank" style="color: #1b4f72; text-decoration: none; font-weight: bold;">Meeting Agent</a>
-<a href="https://mp.weixin.qq.com/s/fgFIfPRGlMXXy8XzCBC8XA" target="_blank" style="color: #154360; text-decoration: none; font-weight: bold;">Purchase Agent</a>
-<a href="https://mp.weixin.qq.com/s/VBp7ROd7Miznki3ob99_4Q" target="_blank" style="color: #0e3a52; text-decoration: none; font-weight: bold;">EfficiencyPi</a>
+<a href="https://mp.weixin.qq.com/s/fgFIfPRGlMXXy8XzCBC8XA" target="_blank" style="display: inline-block; margin: 0.1rem 0.2rem; padding: 0.2rem 0.5rem; border-radius: 0.25rem; border: 1px solid #0076df; background-color: #0076df; color: #ffffff; text-decoration: none; font-weight: 600;">HR Agent</a>
+<a href="https://mp.weixin.qq.com/s/6pcpuERytSw9QfyHAfg05w" target="_blank" style="display: inline-block; margin: 0.1rem 0.2rem; padding: 0.2rem 0.5rem; border-radius: 0.25rem; border: 1px solid #0076df; background-color: #0076df; color: #ffffff; text-decoration: none; font-weight: 600;">Data Agent</a>
+<a href="https://mp.weixin.qq.com/s/5oidw2XT_ggqMYylsnM4hA" target="_blank" style="display: inline-block; margin: 0.1rem 0.2rem; padding: 0.2rem 0.5rem; border-radius: 0.25rem; border: 1px solid #0076df; background-color: #0076df; color: #ffffff; text-decoration: none; font-weight: 600;">Sales Agent</a>
+<a href="https://mp.weixin.qq.com/s/UiZ2xNETnbmTXz9YTXPLdQ" target="_blank" style="display: inline-block; margin: 0.1rem 0.2rem; padding: 0.2rem 0.5rem; border-radius: 0.25rem; border: 1px solid #0076df; background-color: #0076df; color: #ffffff; text-decoration: none; font-weight: 600;">Biding Agent</a>
+<a href="https://mp.weixin.qq.com/s/2-v1LCX-zkpS-XoV1TnJ1A" target="_blank" style="display: inline-block; margin: 0.1rem 0.2rem; padding: 0.2rem 0.5rem; border-radius: 0.25rem; border: 1px solid #0076df; background-color: #0076df; color: #ffffff; text-decoration: none; font-weight: 600;">Meeting Agent</a>
+<a href="https://mp.weixin.qq.com/s/fgFIfPRGlMXXy8XzCBC8XA" target="_blank" style="display: inline-block; margin: 0.1rem 0.2rem; padding: 0.2rem 0.5rem; border-radius: 0.25rem; border: 1px solid #0076df; background-color: #0076df; color: #ffffff; text-decoration: none; font-weight: 600;">Purchase Agent</a>
+<a href="https://mp.weixin.qq.com/s/VBp7ROd7Miznki3ob99_4Q" target="_blank" style="display: inline-block; margin: 0.1rem 0.2rem; padding: 0.2rem 0.5rem; border-radius: 0.25rem; border: 1px solid #0076df; background-color: #0076df; color: #ffffff; text-decoration: none; font-weight: 600;">EfficiencyPi</a>
 
 My current work mainly focuses on using (hyper-)graph, ontology and large language models (LLMs) to encapsulate enterprise knowledge, business entities, and operational logic, enabling structured reasoning and task planning while preserving explainability and execution determinism. I am particularly interested in graph retrieval-augmented generation (GraphRAG) methods and graph foundation models, bridging the gap between cutting-edge AI research and real-world industrial applications.
 
