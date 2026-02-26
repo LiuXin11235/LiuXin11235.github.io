@@ -4,7 +4,6 @@ cv:
   email: liuxin4@supcon.com
   location: Hangzhou, China
   image: ""
-  summary: Researcher at Supcon working on Industrial AI, Graph Neural Networks, and Large Language Models
 
   social_networks:
     - network: GitHub
@@ -71,6 +70,5 @@ cv:
           - Ontology
 
     Services:
-      - title: Session Chair - Privacy & Security Session
-        date: 2024
-        awarder: CIKM 2024
+      - label: "2024"
+        details: "Session Chair - Privacy & Security Session, CIKM 2024"
