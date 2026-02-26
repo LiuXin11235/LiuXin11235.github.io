@@ -39,8 +39,14 @@ jobs:
           ruby-version: '3.1'
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
           cache-version: 0 # Increment this number if you need to re-download cached gems
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y build-essential zlib1g-dev
       - name: Verify bundle installation
-        run: bundle check || bundle install
+        run: |
+          bundle config set --local deployment 'false'
+          bundle check || bundle install --retry 3
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
