@@ -44,6 +44,7 @@ cv:
 
       - institution: Zhejiang University
         location: Hangzhou, China
+        url: http://www.math.zju.edu.cn/
         area: Statistics
         studyType: Bachelor
         start_date: 2012-09
@@ -69,7 +70,5 @@ cv:
 
     Services:
       - title: Session Chair - Privacy & Security Session
-        authors:
-          - "CIKM 2024"
         date: 2024
         awarder: CIKM 2024
