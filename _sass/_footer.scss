@@ -33,3 +33,9 @@ footer.sticky-bottom {
     text-align: center;
   }
 }
+
+/* Ensure visitor counter text matches footer text color */
+#busuanzi_container_site_pv,
+#busuanzi_container_site_pv * {
+  color: inherit;
+}
