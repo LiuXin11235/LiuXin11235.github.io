@@ -38,4 +38,4 @@ My current work mainly focuses on using (hyper-)graph, ontology and large langua
 
 Before joining Supcon, I received my Ph.D. from <a href="https://www.tsinghua.edu.cn/" target="_blank">Tsinghua University</a> in 2025, advised by <a href="https://iiis.tsinghua.edu.cn/rydw/qzjs/xuwei.htm" target="_blank">Prof. Wei Xu</a>, where I worked on fraud detection, multi-party computation, graph algorithms, and graph neural networks. The pursuit of my Ph.D. degree was greatly supported by my advisor, mentors, friends and family ❤️.
 
-Please feel free to contact me — <a href="mailto:liuxin4@supcon.com">liuxin4@supcon.com</a> &middot; <a href="mailto:greenliuxin@163.com">greenliuxin@163.com</a>
+<!-- Please feel free to contact me — <a href="mailto:liuxin4@supcon.com">liuxin4@supcon.com</a> &middot; <a href="mailto:greenliuxin@163.com">greenliuxin@163.com</a> -->
