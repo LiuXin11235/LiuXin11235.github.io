@@ -17,25 +17,46 @@ layout: default
   <article>
     {% if page.profile %}
       <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
+        {% comment %}Find an existing profile image from several common locations{% endcomment %}
+        {% assign chosen_profile_image = '' %}
         {% if page.profile.image %}
-          {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
-          {% capture profile_image_exists %}{% file_exists {{ profile_image_path }} %}{% endcapture %}
+          {% assign candidate = page.profile.image | prepend: 'assets/img/' %}
+          {% capture exists %}{% file_exists {{ candidate }} %}{% endcapture %}
+          {% if exists == 'true' %}
+            {% assign chosen_profile_image = candidate %}
+          {% endif %}
+        {% endif %}
+        {% if chosen_profile_image == '' %}
+          {% capture exists_prof %}{% file_exists assets/img/prof_pic.jpg %}{% endcapture %}
+          {% if exists_prof == 'true' %}
+            {% assign chosen_profile_image = 'assets/img/prof_pic.jpg' %}
+          {% endif %}
+        {% endif %}
+        {% if chosen_profile_image == '' %}
+          {% capture exists_photo %}{% file_exists assets/img/photo.jpg %}{% endcapture %}
+          {% if exists_photo == 'true' %}
+            {% assign chosen_profile_image = 'assets/img/photo.jpg' %}
+          {% endif %}
+        {% endif %}
+        {% if chosen_profile_image == '' %}
+          {% capture exists_root %}{% file_exists photo.jpg %}{% endcapture %}
+          {% if exists_root == 'true' %}
+            {% assign chosen_profile_image = 'photo.jpg' %}
+          {% endif %}
+        {% endif %}
+        {% if chosen_profile_image != '' %}
           {% if page.profile.image_circular %}
             {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
           {% else %}
-            {% assign profile_image_class = 'img-fluid z-depth-1
-      rounded' %}
+            {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
           {% endif %}
-          {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
-      30vw, 95vw"{% endcapture %}
-          {% if profile_image_exists == 'true' %}
-            {%
-              include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
-              cache_bust=true
-            %}
-          {% else %}
-            <!-- profile image not found: skipping image include -->
-          {% endif %}
+          {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
+          {%
+            include figure.liquid loading="eager" path=chosen_profile_image class=profile_image_class sizes=sizes alt=page.profile.image
+            cache_bust=true
+          %}
+        {% else %}
+          <!-- profile image not found in common locations -->
         {% endif %}
         {% if page.profile.more_info %}
           <div class="more-info">{{ page.profile.more_info }}</div>
