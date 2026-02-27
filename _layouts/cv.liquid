@@ -255,7 +255,7 @@ layout: default
                       {%- endif -%}
                       {%- assign loc_parts = loc_parts | append: basics.location.postalCode -%}
                     {%- endif -%}
-                    {{ loc_parts }}
+                    {{ loc_parts | regex_replace: ',\\s*$','' }}
                   </td>
                 </tr>
               {% endif %}
