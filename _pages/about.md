@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Researcher at <a href='https://www.supcon.com/'>Supcon</a>
+# subtitle: Researcher at <a href='https://www.supcon.com/'>Supcon</a>
 
 profile:
   align: right
