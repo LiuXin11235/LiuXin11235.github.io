@@ -6,7 +6,7 @@ subtitle: Researcher at <a href='https://www.supcon.com/'>Supcon</a>
 
 profile:
   align: right
-  image: photo.jpg
+  image: photo_window.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p><a href="mailto:liuxin4@supcon.com">liuxin4@supcon.com</a></p>
