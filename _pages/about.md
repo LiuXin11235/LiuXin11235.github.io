@@ -6,7 +6,7 @@ subtitle: Researcher at <a href='https://www.supcon.com/'>Supcon</a>
 
 profile:
   align: right
-  image: photo_window.jpg
+  image: photo.jpg
   image_circular: false # crops the image to make it circular
   # more_info: FIT Building, THU
 
