@@ -379,3 +379,33 @@
 
 <!-- Busuanzi Visitor Counter -->
 <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<!-- CountAPI fallback/primary visitor counter -->
+<script>
+  (function () {
+    try {
+      var el = document.getElementById('busuanzi_value_site_pv');
+      if (!el) return;
+      var namespace = '{{ site.url | replace: "https://", "" | replace: "http://", "" | split: "/" | first }}';
+      var key = 'visitors';
+      // Try GET first (non-incrementing). If not found, call HIT to create.
+      fetch('https://api.countapi.xyz/get/' + encodeURIComponent(namespace) + '/' + key)
+        .then(function (res) {
+          if (res.status === 200) {
+            return res.json();
+          } else {
+            return fetch('https://api.countapi.xyz/hit/' + encodeURIComponent(namespace) + '/' + key).then(function (r) { return r.json(); });
+          }
+        })
+        .then(function (data) {
+          if (data && typeof data.value !== 'undefined') {
+            el.textContent = data.value;
+          }
+        })
+        .catch(function (e) {
+          // ignore errors; busuanzi may handle counts if available
+        });
+    } catch (e) {
+      // noop
+    }
+  })();
+</script>
