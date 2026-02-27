@@ -233,10 +233,29 @@ layout: default
                 <tr>
                   <td class="p-1 pr-2 font-weight-bold"><b>Location</b></td>
                   <td class="p-1 pl-2 font-weight-light">
-                    {% if basics.location.address %}{{ basics.location.address }}, {% endif %}
-                    {% if basics.location.city %}{{ basics.location.city }}, {% endif %}
-                    {% if basics.location.region %}{{ basics.location.region }} {% endif %}
-                    {% if basics.location.postalCode %}{{ basics.location.postalCode }}{% endif %}
+                    {%- assign loc_parts = '' -%}
+                    {%- if basics.location.address -%}
+                      {%- assign loc_parts = loc_parts | append: basics.location.address -%}
+                    {%- endif -%}
+                    {%- if basics.location.city -%}
+                      {%- if loc_parts != '' -%}
+                        {%- assign loc_parts = loc_parts | append: ', ' -%}
+                      {%- endif -%}
+                      {%- assign loc_parts = loc_parts | append: basics.location.city -%}
+                    {%- endif -%}
+                    {%- if basics.location.region -%}
+                      {%- if loc_parts != '' -%}
+                        {%- assign loc_parts = loc_parts | append: ', ' -%}
+                      {%- endif -%}
+                      {%- assign loc_parts = loc_parts | append: basics.location.region -%}
+                    {%- endif -%}
+                    {%- if basics.location.postalCode -%}
+                      {%- if loc_parts != '' -%}
+                        {%- assign loc_parts = loc_parts | append: ', ' -%}
+                      {%- endif -%}
+                      {%- assign loc_parts = loc_parts | append: basics.location.postalCode -%}
+                    {%- endif -%}
+                    {{ loc_parts }}
                   </td>
                 </tr>
               {% endif %}

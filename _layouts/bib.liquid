@@ -217,7 +217,7 @@
         {% endif %}
       {% endif %}
       {% if entry.pdf %}
-        {% unless entry.arxiv %}
+        {% unless entry.arxiv or page.layout == 'cv' %}
           {% if entry.pdf contains '://' %}
             <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
           {% else %}
