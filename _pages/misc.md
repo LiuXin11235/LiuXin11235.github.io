@@ -6,7 +6,7 @@ nav: true
 nav_order: 4
 ---
 
-I enjoy reading, exercising, listening to music, including a whole range of classical music across various cultures as well as modern ones.
+I enjoy reading, exercising, listening to music.
 
 ## Books I'm currently reading
 
