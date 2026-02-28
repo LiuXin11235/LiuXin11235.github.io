@@ -40,6 +40,7 @@ Before joining Supcon, I received my Ph.D. from <a href="https://www.tsinghua.ed
 
 <!-- Please feel free to contact me — <a href="mailto:liuxin4@supcon.com">liuxin4@supcon.com</a> &middot; <a href="mailto:greenliuxin@163.com">greenliuxin@163.com</a> -->
 
+{% comment %}
 <!-- Small visitor map (client-side GeoIP, opt-out) -->
 <hr style="margin-top:1.25rem; margin-bottom:0.75rem;">
 <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
@@ -95,3 +96,4 @@ Before joining Supcon, I received my Ph.D. from <a href="https://www.tsinghua.ed
     });
 })();
 </script>
+{% endcomment %}
