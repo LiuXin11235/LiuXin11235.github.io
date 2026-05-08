@@ -36,7 +36,7 @@ HI! I am a researcher at <a href="https://www.supcon.com/" target="_blank">Supco
 
 My current work mainly focuses on using (hyper-)graph, ontology and large language models (LLMs) to encapsulate enterprise knowledge, business entities, and operational logic, enabling structured reasoning and task planning while preserving explainability and execution determinism. I am particularly interested in graph retrieval-augmented generation (GraphRAG) methods and graph foundation models (GFMs), bridging the gap between cutting-edge AI research and real-world industrial applications.
 
-Before joining Supcon, I received my Ph.D. from <a href="https://www.tsinghua.edu.cn/" target="_blank">Tsinghua University</a> in 2025, advised by <a href="https://iiis.tsinghua.edu.cn/rydw/qzjs/xuwei.htm" target="_blank">Prof. Wei Xu</a>, where I worked on fraud detection, multi-party computation, graph algorithms, and graph neural networks. The pursuit of my Ph.D. degree was greatly supported by my advisor, teachers, friends and family ❤️.
+Before joining Supcon, I received my Ph.D. from <a href="https://www.tsinghua.edu.cn/" target="_blank">Tsinghua University</a> in 2025, advised by <a href="https://iiis.tsinghua.edu.cn/rydw/qzjs/xuwei.htm" target="_blank">Prof. Wei Xu</a>, where I worked on fraud detection, multi-party computation, graph algorithms, and graph neural networks.
 
 <!-- Please feel free to contact me — <a href="mailto:liuxin4@supcon.com">liuxin4@supcon.com</a> &middot; <a href="mailto:greenliuxin@163.com">greenliuxin@163.com</a> -->
 
