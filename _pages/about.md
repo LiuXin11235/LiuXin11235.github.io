@@ -28,7 +28,7 @@ HI! I am a researcher at <a href="https://www.supcon.com/" target="_blank">Supco
 
 My current work mainly focuses on constructing ontology-based agents using hyper-graphs and harness engineering to encapsulate enterprise knowledge, business entities, and operational logic. This enables structured reasoning and task planning while preserving explainability and execution determinism. I am also interested in graph foundation models (GFMs), bridging the gap between cutting-edge AI research and real-world industrial applications.
 
-Before joining Supcon, I received my Ph.D. from <a href="https://www.tsinghua.edu.cn/" target="_blank">Tsinghua University</a> in 2025, advised by <a href="https://iiis.tsinghua.edu.cn/rydw/qzjs/xmc/index.htm" target="_blank">Professor M. Chen</a>.
+Before joining Supcon, I received my Ph.D. from <a href="https://www.tsinghua.edu.cn/" target="_blank">Tsinghua University</a> in 2025, advised by <a href="https://iiis.tsinghua.edu.cn/rydw/qzjs/xuwei.htm" target="_blank">Professor Wei Xu</a>.
 
 <!-- Please feel free to contact me — <a href="mailto:liuxin4@supcon.com">liuxin4@supcon.com</a> &middot; <a href="mailto:greenliuxin@163.com">greenliuxin@163.com</a> -->
 
