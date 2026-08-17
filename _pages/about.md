@@ -24,7 +24,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-HI! I am a researcher at <a href="https://www.supcon.com/" target="_blank">Supcon</a> working on Industrial AI. Our team is building a suite of industrial intelligent agents based on HGT fostering innovation in industrial intelligence.
+HI! I am a researcher at <a href="https://www.supcon.com/" target="_blank">Supcon</a> working on Industrial AI. Our team is building a suite of industrial intelligent agents fostering innovation in industrial intelligence.
 
 My current work mainly focuses on constructing ontology-based agents using hyper-graphs and harness engineering to encapsulate enterprise knowledge, business entities, and operational logic. This enables structured reasoning and task planning while preserving explainability and execution determinism. I am also interested in graph foundation models (GFMs), bridging the gap between cutting-edge AI research and real-world industrial applications.
 
